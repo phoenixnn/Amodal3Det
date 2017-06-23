@@ -19,5 +19,16 @@ If you use this project for your research, please consider citing:
 
 
 ## Contents
+1. [System requirements]
+
+
+## System requirements
+The code is tested on the following configuration:
+    OS: Ubuntu 14.04
+    hardware: Titan X 
+    software: Caffe, CUDA-7.5, Cudnn-4.0, Matlab2015a
+
+
 Source Code and data are coming soon ...
+
 
