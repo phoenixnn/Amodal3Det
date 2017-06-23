@@ -22,10 +22,10 @@ If you use this project for your research, please consider citing:
 1. [System requirements](#system)
 
 ## System requirements
-The code is tested on the following configuration:
+The code is tested on the following configurations:
 1. OS: Ubuntu 14.04
-2. Hardware: Titan X 
-3. Software: Caffe, CUDA-7.5, Cudnn-4.0, Matlab2015a
+2. Hardware: Nvidia Titan X 
+3. Software: Caffe, CUDA-7.5, Cudnn v4, Matlab 2015a, anaconda2
 
 
 Source Code and data are coming soon ...
