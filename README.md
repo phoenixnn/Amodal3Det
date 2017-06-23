@@ -20,13 +20,15 @@ If you use this project for your research, please consider citing:
 
 ## Contents
 1. [System requirements](#system)
+2. [Requirements: software](#requirements-software)
 
 ## System requirements
 The code is tested on the following configurations:
 1. OS: Ubuntu 14.04
-2. Hardware: Nvidia Titan X 
-3. Software: Caffe, CUDA-7.5, Cudnn v4, Matlab 2015a, anaconda2
+2. Hardware: Nvidia Titan X (GPU usage: ~9GB)
+3. Software: Caffe, CUDA-7.5, Cudnn v4, Matlab 2015a, Anaconda2
 
+### Requirements: software
 
 Source Code and data are coming soon ...
 
