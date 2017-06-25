@@ -21,6 +21,7 @@ If you use this project for your research, please consider citing:
 ## Contents
 1. [System requirements](#system)
 2. [Basic Installation](#install)
+3. [Usage](#usage)
 
 ## System requirements
 The code is tested on the following system:
@@ -40,12 +41,19 @@ The code is tested on the following system:
     cd your_root_dir
     make all -j8 && make pycaffe
     ```
-3. install cuDNN
+3. install cuDNN:
     ```Shell
-    cp cudnn_folder/include/cudnn.h /usr/local/cuda-7.5/include/
-    cp cudnn_folder/lib64/*.so* /usr/local/cuda-7.5/lib64/
+    sudo cp cudnn_folder/include/cudnn.h /usr/local/cuda-7.5/include/
+    sudo cp cudnn_folder/lib64/*.so* /usr/local/cuda-7.5/lib64/
     ```
 
+## Usage
+1. Download NYUV2 dataset with 3D annotations:
+    ```Shell
+    wget 'url' -P your_root_dir/dataset/NYUV2/
+    unzip your_root_dir/dataset/NYUV2/NYUV2_3D_dataset.zip
+    ```
+2. Download precomputed 2D segment proposals based on MCG3D:
 
 Source Code and data are coming soon ...
 
