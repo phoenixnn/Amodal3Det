@@ -34,6 +34,10 @@ The code is tested on the following system:
     git clone https://github.com/phoenixnn/Amodal3Det.git
 
     ```
+2. build Caffe:
+    ```Shell
+    make all -j8 && make pycaffe
+    ```
 
 
 Source Code and data are coming soon ...
