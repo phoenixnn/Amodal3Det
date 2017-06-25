@@ -26,7 +26,7 @@ If you use this project for your research, please consider citing:
 The code is tested on the following system:
 1. OS: Ubuntu 14.04
 2. Hardware: Nvidia Titan X (GPU usage: ~9GB)
-3. Software: Caffe, CUDA-7.5, Cudnn v4, Matlab 2015a, Anaconda2
+3. Software: Caffe, CUDA-7.5, cuDNN v4, Matlab 2015a, Anaconda2
 
 ## Basic Installation
 1. clone the Amodal3Det repository: 
@@ -36,7 +36,14 @@ The code is tested on the following system:
     ```
 2. build Caffe:
     ```Shell
+    # assume you clone the repo into the local your_root_dir
+    cd your_root_dir
     make all -j8 && make pycaffe
+    ```
+3. install cuDNN
+    ```Shell
+    cp cudnn_folder/include/cudnn.h /usr/local/cuda-7.5/include/
+    cp cudnn_folder/lib64/*.so* /usr/local/cuda-7.5/lib64/
     ```
 
 
