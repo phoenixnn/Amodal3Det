@@ -48,12 +48,27 @@ The code is tested on the following system:
     ```
 
 ## Usage
-1. Download NYUV2 dataset with 3D annotations:
+1. Download NYUV2 dataset with 3D annotations and unzip:
     ```Shell
     wget 'url' -P your_root_dir/dataset/NYUV2/
-    unzip your_root_dir/dataset/NYUV2/NYUV2_3D_dataset.zip
     ```
-2. Download precomputed 2D segment proposals based on MCG3D:
+2. Download precomputed 2D segment proposals based on MCG3D and unzip:
+    ```Shell
+    wget 'url' -P your_root_dir/matlab/NYUV2/
+    ```
+3. Download pretrained models and unzip:
+    ```Shell
+    wget 'url' -P your_root_dir/rgbd_3det/
+    ```
+4. Run "your_root_dir/matlab/NYUV2/pipeline.m" in Matlab to extact required data.
+5. Set up training/test data:
+   run "setup_training_data.py" and "setup_testing_data.py" under your_root_dir/rgbd_3det/data respectively
+6. Train model:
+    ```Shell
+    cd your_root_dir
+    ./trainNet.sh
+    ```
+7. Test model: run "test_cnn.py"
 
 Source Code and data are coming soon ...
 
