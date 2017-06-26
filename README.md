@@ -60,6 +60,9 @@ The code is tested on the following system:
     ```Shell
     wget 'url' -P your_root_dir/rgbd_3det/
     ```
+    VGG16 comes from the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), 
+    but is provided here for your convenience.
+
 4. Run "your_root_dir/matlab/NYUV2/pipeline.m" in Matlab to extact required data.
 5. Set up training/test data:
 
