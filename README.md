@@ -1,6 +1,6 @@
 # Amodal Detection of 3D Objects: Inferring 3D Bounding Boxes from 2D Ones in RGB-Depth Images
 
-By Zhuo Deng, Longin Jan Latecki (Temple University).
+By [Zhuo Deng](www.dnnseye.com), [Longin Jan Latecki](https://cis.temple.edu/~latecki/) (Temple University).
 This paper was published in CVPR 2017.
 
 ## License 
