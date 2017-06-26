@@ -62,6 +62,7 @@ The code is tested on the following system:
     ```
 4. Run "your_root_dir/matlab/NYUV2/pipeline.m" in Matlab to extact required data.
 5. Set up training/test data:
+
    run "setup_training_data.py" and "setup_testing_data.py" under your_root_dir/rgbd_3det/data respectively
 6. Train model:
     ```Shell
