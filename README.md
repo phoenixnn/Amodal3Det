@@ -50,15 +50,15 @@ The code is tested on the following system:
 ## Usage
 1. Download NYUV2 dataset with 3D annotations and unzip:
     ```Shell
-    wget 'url' -P your_root_dir/dataset/NYUV2/
+    wget 'https://cis.temple.edu/~latecki/TestData/DengCVPR2017/NYUV2_3D_dataset.zip' -P your_root_dir/dataset/NYUV2/
     ```
 2. Download precomputed 2D segment proposals based on MCG3D and unzip:
     ```Shell
-    wget 'url' -P your_root_dir/matlab/NYUV2/
+    wget 'https://cis.temple.edu/~latecki/TestData/DengCVPR2017/Segs.zip' -P your_root_dir/matlab/NYUV2/
     ```
 3. Download pretrained models and unzip:
     ```Shell
-    wget 'url' -P your_root_dir/rgbd_3det/
+    wget 'https://cis.temple.edu/~latecki/TestData/DengCVPR2017/pretrained.zip' -P your_root_dir/rgbd_3det/
     ```
     VGG16 comes from the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), 
     but is provided here for your convenience.
