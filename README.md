@@ -74,6 +74,4 @@ The code is tested on the following system:
     ```
 7. Test model: run "test_cnn.py"
 
-Source Code and data are coming soon ...
-
 
